@@ -1,0 +1,190 @@
+@media only screen and (max-width: 1200px) {
+    .heroTextBox {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row{
+        padding: 0 2%;
+    }
+
+    footer{
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+
+    body{
+        font-size: 17px;
+    }
+    section{
+        padding: 15px;
+    }
+
+    .featureWelcome {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .iconSmall{
+        width: 20px;
+    }
+    
+
+    /* steps */
+    .appScreen{
+        width: 60%;
+    }
+
+    .workStep{
+        margin-bottom: 30px;
+    }
+    
+    .workStep:last-of-type {
+        margin-bottom: 50px;
+    }
+
+    .btnApp img{
+        height: 50px;
+        margin: 5px;
+    }
+
+
+
+    /*  */
+    .planPrice{
+        font-size: 250%;
+    }
+
+    .planBox{
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    .planBox div{
+        padding: 5px;
+    }
+
+
+    input[type=email],
+    input[type=text],
+    select,
+    textarea{
+        width: 90%;
+    }
+
+/* footer */
+    .footerNavigation{
+        font-size: 90%;
+    }
+
+    footer{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    /*  */
+
+    /* .mainNavigation{
+        display: none;
+    } */
+
+    .mainNavigation{
+        margin-top: 25px;
+        margin-left: 25px;
+        float: left;
+    }
+
+    .mobileMenuIcon:link,
+    .mobileMenuIcon:visited,
+    .mobileMenuIcon:hover,
+    .mobileMenuIcon:active{
+        display: inline-block;
+        border: 0;
+    }
+
+    .mainNavigation li,
+    .mainNavigation li{
+        display: block;
+    }
+
+    .mainNavigation li a:link,
+    .mainNavigation li a:visited{
+        display: block;
+        border: 0;
+    }
+
+
+   
+    .sticky .mainNavigation{
+        margin-top: 18px;
+        color: #535353;
+    }
+    
+    .sticky .mainNavigation li a:link,
+    .sticky .mainNavigation li a:visited{
+        color: #535353;
+    }
+    
+    .sticky .mainNavigation li a:hover,
+    .sticky .mainNavigation li a:active{
+        padding-bottom: 18px;
+    }
+    
+    .sticky .logoWhite{
+        display: none;
+    }
+    
+    .sticky .logoBlack{
+        display: block;
+    }
+    
+
+/*  */
+
+    .featureWelcome {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    h1{
+        font-size: 210%;
+    }
+    
+    h2{
+        font-size: 160%;
+        margin-bottom: 30px;
+    }
+
+    .stepBox:first-child {
+        text-align: center;
+    }
+
+    .workStep{
+        margin-bottom: 20px;
+    }
+    
+    .workStep:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .workStep div{
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+        font-size: 130%;
+        margin-right: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
